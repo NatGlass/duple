@@ -32,7 +32,7 @@ export function activate(context: vscode.ExtensionContext) {
           // The 'globalState' is a key-value store that lets you persist state across restarts of the editor. Here we're saving the snippet.
           context.globalState.update(name, selectedText);
           vscode.window.showInformationMessage(
-            `Your snippet "$${name}" has been saved successfully!`
+            `Your snippet "${name}" has been saved successfully!`
           );
         } else {
           // If the user didn't input anything, show a warning message.
