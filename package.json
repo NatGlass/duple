@@ -3,6 +3,10 @@
   "displayName": "Duple",
   "description": "Reuse written code from other files instead of rewriting it each time",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Visibyte/duple.git"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },
