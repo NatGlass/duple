@@ -17,8 +17,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "duple.helloWorld",
-        "title": "Hello World"
+        "command": "extension.addSnippet",
+        "title": "Add New Snippet"
       }
     ]
   },
