@@ -85,3 +85,10 @@ export function activate(context: vscode.ExtensionContext) {
 
 // Deactivate extension if needed
 export function deactivate() {}
+export function saveSnippet(snippetName: string, snippetContent: string) {
+  throw new Error("Function not implemented.");
+}
+
+export function getSnippet(snippetName: string): unknown {
+  throw new Error("Function not implemented.");
+}
